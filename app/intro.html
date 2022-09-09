@@ -1,0 +1,398 @@
+---
+title: 介紹
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<section class="my-3 my-lg-5">
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-lg-6 mb-4">
+                <div class="intro-img"></div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card border h-100 rounded-0">
+                    <div class="p-3 border-bottom">
+                        <div class="d-lg-flex flex-row-reverse justify-content-lg-between p-lg-3">
+                            <div class="bg-white d-flex align-items-center mb-2">
+                                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/artist01.jpg"
+                                    class="artist-photo img-fulid object-fix-cover me-2" alt="img-intro">
+                                <p class="mb-0">Michael</p>
+                            </div>
+                            <h3 class="fs-2 fw-bold mb-3">兩情相悅</h3>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-between px-lg-3 py-lg-4">
+                            <div>
+                                <span class="mb-2 text-muted fs-14 d-block mb-2">最高出價</span>
+                                <div class="d-flex align-items-center">
+                                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/user01.jpg"
+                                        class="user-photo img-fulid object-fix-cover me-2" alt="img-intro">
+                                    <i class="fa-solid fa-arrow-right me-2"></i>
+                                    <p class="mb-0">0.044Eth</p>
+                                </div>
+                            </div>
+
+                            <a href="javascript:;" class="btn bg-secondary text-white fs-6 px-6 rounded-0 border">出價</a>
+                        </div>
+                    </div>
+
+                    <div class="p-3 p-lg-4">
+                        <p class="mb-3">3/14 情人節外面剛好有兩隻鳥，也在過情人節。</p>
+                        <p class="mb-3">而且其中一隻竟然有梳油頭，不知道是不是有用定型液，他們感情真好，出門還會特別打扮，看著看著不禁思考，我怎麼會變這樣？</p>
+                        <p class="mb-0">好羨慕啊，我也要有這樣兩情相悅的另一半。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="row list-unstyled mb-4">
+            <li class="col-lg-6 mb-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item bg-white border rounded-0">
+                        <h2 class="accordion-header border-bottom" id="eadingOne">
+                            <button class="accordion-button bg-white text-black fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                屬性
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#introHeadingOne">
+                            <div class="px-2 px-lg-4 pt-3 pt-lg-4">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr class="border-bottom border-light-gray">
+                                            <th>品種</th>
+                                            <td class="text-gray text-end">青藍金剛鸚鵡</td>
+                                        </tr>
+                                        <tr class="border-bottom border-light-gray">
+                                            <th>鳥的數量</th>
+                                            <td class="text-gray text-end">2隻</td>
+                                        </tr>
+                                        <tr class="border-bottom border-light-gray">
+                                            <th>是否有花草</th>
+                                            <td class="text-gray text-end">是</td>
+                                        </tr>
+                                        <tr>
+                                            <th>鳥的顏色</th>
+                                            <td class="text-gray text-end">藍色</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+
+            <li class="col-lg-6 mb-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item bg-white border rounded-0">
+                        <h2 class="accordion-header border-bottom" id="headingTwo">
+                            <button class="accordion-button bg-white text-black fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
+                                aria-controls="collapseTwo">
+                                出價
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="px-2 px-lg-4 pt-3 pt-lg-4">
+                                <table class="table table-borderless">
+                                    <thead class="text-center text-lg-start bg-light-gray">
+                                      <tr>
+                                        <th class="w-50 ">價格</th>
+                                        <th class="w-50">期限</th>
+                                      </tr>
+                                    </thead>
+                                    
+                                    <tbody class="">
+                                        <tr class="border-bottom border-light-gray">
+                                            <td class="">
+                                                <div class="d-flex align-items-cente">
+                                                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/user01.jpg"
+                                                    class="user-photo img-fulid object-fix-cover me-2" alt="img-intro">
+                                                    <i class="fa-solid fa-arrow-right me-2"></i>
+                                                    <p class="mb-0">0.044Eth</p>
+                                                </div>
+                                            </td>
+                                            <td class="text-gray text-end text-lg-start">3個月後</td>
+                                        </tr>
+                                        <tr class="border-bottom border-light-gray">
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/user02.jpg"
+                                                    class="user-photo img-fulid object-fix-cover me-2" alt="img-intro">
+                                                    <i class="fa-solid fa-arrow-right me-2"></i>
+                                                    <p class="mb-0">0.054Eth</p>
+                                                </div>
+                                            </td>
+                                            <td class="text-gray text-end text-lg-start">1個月後</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/user03.jpg"
+                                                    class="user-photo img-fulid object-fix-cover me-2" alt="img-intro">
+                                                    <i class="fa-solid fa-arrow-right me-2"></i>
+                                                    <p class="mb-0">0.054Eth</p>
+                                                </div>
+                                            </td>
+                                            <td class="text-gray text-end text-lg-start">2週後</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+
+            <li class="col-lg-6 mb-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item bg-white border rounded-0">
+                        <h2 class="accordion-header border-bottom" id="headingOne">
+                            <button class="accordion-button bg-white text-black fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true"
+                                aria-controls="collapseThree">
+                                基本資訊
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="px-2 pt-3">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr class="border-bottom border-light-gray">
+                                            <th>擁有者</th>
+                                            <td class="text-gray text-end">0xa543x…1283</td>
+                                        </tr>
+                                        <tr class="border-bottom border-light-gray">
+                                            <th>代幣ID</th>
+                                            <td class="text-gray text-end">#1234</td>
+                                        </tr>
+                                        <tr>
+                                            <th>合約地址</th>
+                                            <td class="text-gray text-end">青藍金剛鸚鵡</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+
+            <li class="col-lg-6 mb-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item bg-white border rounded-0">
+                        <h2 class="accordion-header border-bottom" id="headingOne">
+                            <button class="accordion-button bg-white text-black fw-bold" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true"
+                                aria-controls="collapseFour">
+                                交易歷史
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="px-2 px-lg-4 pt-3 pt-lg-4">
+                                <table class="table table-borderless">
+                                    <thead class="text-start bg-light-gray">
+                                      <tr>
+                                        <th class="w-25">事件</th>
+                                        <th class="w-25">價格</th>
+                                        <th class="w-25">從</th>
+                                        <th class="w-25">時間</th>
+                                      </tr>
+                                    </thead>
+                                    
+                                    <tbody>
+                                        <tr class="border-bottom border-light-gray">
+                                            <td class="text-gray">上架</td>
+                                            <td class="text-gray">2nb</td>
+                                            <td>
+                                                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/user02.jpg"
+                                                class="user-photo img-fulid object-fix-cover" alt="img-intro">
+                                            </td>
+                                            <td class="text-gray">14小時前</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-gray">出價</td>
+                                            <td class="text-gray">2nb</td>
+                                            <td>
+                                                <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/user03.jpg"
+                                                class="user-photo img-fulid object-fix-cover" alt="img-intro">
+                                            </td>
+                                            <td class="text-gray">2週後</td>
+                                        </tr>
+                                 
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- Other -->
+<section class="my-6 other">
+    <div class="container overflow-hidden">
+        <div class="d-flex align-items-center border-bottom mb-4">
+            <h2 class="fw-bold mb-0 d-flex align-items-end">
+                Other
+                <span class="fs-5 ms-3 d-none d-lg-block">其餘作品</span>
+            </h2>
+            <a class="moreBtn ms-auto position-relative" href="javascript:;">
+                MORE
+                <div class="triangle"></div>
+            </a>
+        </div>
+
+
+        <!-- Swiper -->
+        <div class="swiper_intro intro-swiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+            <div class="swiper-wrapper" id="swiper-wrapper-d2e14b70fd6cd257" aria-live="off">
+
+                <!-- 群聚的小鳥們 -->
+                <div class="swiper-slide" role="group" aria-label="1 / 4" data-swiper-slide-index="0">
+                    <div class="otherCard border-0 mb-2">
+                        <div class="card-img bg-white p-2 card-inner p-lg-4">
+                            <div class="img-info">
+                                <a href="javascript:;">
+                                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/art22.jpg"
+                                        class="object-fix-cover" alt="其餘作品">
+                                </a>
+                                <div class="img-bg d-none d-lg-block">
+                                    <div class="img-bg-info">
+                                        <div>
+                                            <p class="mb-2">唯一想擁有的人，唯一不可以擁有的</p>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa-brands fa-ethereum me-2"></i>
+                                                <p class="mb-0">300</p>
+                                            </div>
+                                        </div>
+                                        <div class="img-btn">
+                                            <a class="moreBtn ms-auto position-relative text-black bg-white border" href="#">
+                                                MORE
+                                                <div class="triangle"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="img-text py-3">群聚的小鳥們</h6>
+                    </div>
+                </div>
+
+                <!-- 我真的受傷了 -->
+                <div class="swiper-slide" role="group" aria-label="1 / 4" data-swiper-slide-index="0">
+                    <div class="otherCard border-0 mb-2">
+                        <div class="card-img bg-white p-2 card-inner p-lg-4">
+                            <div class="img-info">
+                                <a href="javascript:;">
+                                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/art27.jpg"
+                                        class="object-fix-cover" alt="其餘作品">
+                                </a>
+                                <div class="img-bg d-none d-lg-block">
+                                    <div class="img-bg-info">
+                                        <div>
+                                            <p class="mb-2">唯一想擁有的人，唯一不可以擁有的</p>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa-brands fa-ethereum me-2"></i>
+                                                <p class="mb-0">300</p>
+                                            </div>
+                                        </div>
+                                        <div class="img-btn">
+                                            <a class="moreBtn ms-auto position-relative text-black bg-white border" href="#">
+                                                MORE
+                                                <div class="triangle"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="img-text py-3">我真的受傷了</h6>
+                    </div>
+                </div>
+
+                <!-- 這兩隻也太像企鵝了吧 -->
+                <div class="swiper-slide" role="group" aria-label="1 / 4" data-swiper-slide-index="0">
+                    <div class="otherCard border-0 mb-2">
+                        <div class="card-img bg-white p-2 card-inner p-lg-4">
+                            <div class="img-info">
+                                <a href="javascript:;">
+                                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/art20.jpg"
+                                        class="object-fix-cover" alt="其餘作品">
+                                </a>
+                                <div class="img-bg d-none d-lg-block">
+                                    <div class="img-bg-info">
+                                        <div>
+                                            <p class="mb-2">唯一想擁有的人，唯一不可以擁有的</p>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa-brands fa-ethereum me-2"></i>
+                                                <p class="mb-0">300</p>
+                                            </div>
+                                        </div>
+                                        <div class="img-btn">
+                                            <a class="moreBtn ms-auto position-relative text-black bg-white border" href="#">
+                                                MORE
+                                                <div class="triangle"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="img-text py-3">這兩隻也太像企鵝了吧</h6>
+                    </div>
+                </div>
+
+                <!-- 群聚囉～小鳥 -->
+                <div class="swiper-slide" role="group" aria-label="1 / 4" data-swiper-slide-index="0">
+                    <div class="otherCard border-0 mb-2">
+                        <div class="card-img bg-white p-2 card-inner p-lg-4">
+                            <div class="img-info">
+                                <a href="javascript:;">
+                                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/art26.jpg"
+                                        class="object-fix-cover" alt="其餘作品">
+                                </a>
+                                <div class="img-bg d-none d-lg-block">
+                                    <div class="img-bg-info border-white">
+                                        <div>
+                                            <p class="mb-2">唯一想擁有的人，唯一不可以擁有的</p>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fa-brands fa-ethereum me-2"></i>
+                                                <p class="mb-0">300</p>
+                                            </div>
+                                        </div>
+                                        <div class="img-btn">
+                                            <a class="moreBtn ms-auto position-relative text-black bg-white border" href="#">
+                                                MORE
+                                                <div class="triangle"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="img-text py-3">群聚囉～小鳥</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+</section>

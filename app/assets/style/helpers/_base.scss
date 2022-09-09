@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  //outline: 1px solid pink;
+}
+body{
+    line-height: 1.5;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+    &:hover{
+        opacity: 0.8;
+    }
+}

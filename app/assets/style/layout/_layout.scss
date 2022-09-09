@@ -1,0 +1,41 @@
+.navbar-brand{
+    img{
+        @include screen-lg{
+            width: 190px;
+            height: 40x;
+        }
+    }
+}
+.searchIcon{
+    position: absolute;
+    right: 85px;
+    top: 18px;
+}
+
+
+@include screen-lg{
+    .navbar-collapse{
+        position: relative;
+        display: flex;
+        height: 90px;
+    }
+    .nav-content{
+        display: flex;
+        position: absolute;
+        right: 0;
+    
+        .nav-item{
+            border-right: 1px solid #000;
+            margin: 0;
+        }
+        .nav-item:last-child{
+            border-right: none;
+            margin: 0;
+        }
+        .nav-search{
+            border-right: 1px solid #000;
+            border-left: 1px solid #000;
+            padding: 0 30px;
+        }
+    }
+}

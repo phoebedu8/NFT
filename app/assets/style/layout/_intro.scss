@@ -1,0 +1,143 @@
+.intro-img{
+    height: 288px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/art21.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @include screen-lg{
+        height: 546px;
+    }
+}
+.artist-photo, .user-photo{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.other{
+
+    background: none;
+    display: block;
+
+    img{
+        height: 164px;
+        filter: none;
+
+        @include screen-lg{
+            height: 327px;
+        }
+    }
+}
+.card-img-top{
+    width: 100%;
+}
+
+// Swiper
+.other{
+    .swiper_intro {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow:visible;
+    
+    }
+    .swiper-slide {
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+
+    }
+    .swiper-pagination-bullet{
+        width: 8px;
+        height: 8px;
+        opacity: 1;
+        border-radius: 0;
+        &-active{
+            width: 16px;
+            background-color: #E6553B;
+            border-radius: 0;
+        }
+    }
+    .swiper-pagination{
+        bottom: -20px;
+      
+        @include screen-lg{
+            bottom: -43px;
+        }
+    }
+    img{
+        width: 100%;
+        height: 164px;
+
+        @include screen-md{
+            height: 300px;
+        }
+        @include screen-lg{
+            height: 327px;
+        }
+    }
+    h4{
+        font-size: 16px;
+    }
+    .otherCard{
+        position: relative;
+
+        .card-inner{
+            position: relative;
+        }        
+        .img-bg{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            display: none;
+        }
+        .img-info-content{
+            display: none;
+        }
+        .card-body{
+            background-color: none;
+            margin-top: 20px;
+
+        }
+        &:hover{
+            .img-bg-info{
+                background: rgba(0,0,0,0.7);
+                display: block;
+   
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+    .img-text{
+        font-size: 14px;
+        
+        @include screen-lg{
+            border-bottom: 1px solid black;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: start;
+        }
+    }
+    .img-bg{
+        @include screen-lg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 16px;
+        }
+    }
+    .img-bg-info{
+        @include screen-lg{
+            text-align: start;
+            padding: 20px;
+            // height: 100%;
+            // overflow: hidden;
+            display: none;
+        }
+    }
+}
