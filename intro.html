@@ -1,10 +1,70 @@
----
-title: 介紹
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>介紹</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Squada+One&display=swap" rel="stylesheet">
+    <!--Font-awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <!--Swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <div class="border-bottom">
+      <nav class="container navbar py-lg-0 navbar-expand-lg navbar-light position-relative">
+        <a class="navbar-brand" href="./index.html">
+          <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week8-202207/logo.svg" width="85" height="18" alt="logo">
+        </a>
+  
+        <!-- 手機版 searchIcon -->
+        <a href="#" class="searchIcon d-lg-none">
+          <i class="fa-solid fa-magnifying-glass fa-lg text-black"></i>
+        </a>
+        <!-- 漢堡選單 -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-black"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <div class="nav-content">
+            <form class="nav-search d-flex align-items-center">
+              <input class="form-control me-2 border-0 text-gray bg-light-gray" type="search" placeholder="搜尋作品名稱、藝術家名稱" aria-label="Search">
+              <a href="#" class="d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass fa-lg text-black"></i>
+              </a>
+            </form>
+    
+            <!-- 導覽 -->
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link text-black text-center p-lg-5" href="#">探索</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black text-center p-lg-5" href="#">市值</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black text-center p-lg-5" href="#">
+                  <i class="fa-solid fa-wallet fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+   
+  
+    
 <section class="my-3 my-lg-5">
     <div class="container">
         <div class="row mb-4">
@@ -396,3 +456,20 @@ current: index
 
     </div>
 </section>
+
+    <footer class="border-top py-1">
+      <div class="border-4 border-top">
+        <p class="text-center py-4 mb-0">© ART NFT. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!--masonry 瀑布流-->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <!--Swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
